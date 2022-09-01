@@ -63,27 +63,5 @@ class Zergling  extends Unit {
 		return hp;
 	}
 }
-//class Zealot extends Unit {
-//	public int hp = 100;
-//	@Override
-//	public void country() { System.out.println("country : Aiur"); }
-//	@Override
-//	public void type() { System.out.println("type : alien"); }
-//	@Override
-//	public void price() { System.out.println("price : 100 mineral"); }
-//	@Override
-//	public void weapan() { System.out.println("weapan : Psionic Blades"); }
-//
-//	@Override
-//	public void damage() { System.out.println("damage : 16");}
-//
-//	public void hp() { System.out.println("Hp : " + hp); }
-//
-//	public int hpDown (int a) {
-//		hp -= a;
-//		if(hp <= 0) System.out.println("Zealot Die");
-//		else System.out.println("Zealot Hp : " + hp);
-//		return hp;
-//	}
-//}
+
 
