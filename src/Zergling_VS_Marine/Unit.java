@@ -16,6 +16,7 @@ public class Unit implements All_Kind {
 	public void hp() {}
 }
 
+// 마린
 class Marine extends Unit {
 	public int hp = 45;
 	@Override
@@ -40,6 +41,7 @@ class Marine extends Unit {
 	}
 }
 
+// 저글링
 class Zergling  extends Unit {
 	public int hp = 35;
 	@Override

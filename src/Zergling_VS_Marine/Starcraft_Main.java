@@ -1,11 +1,15 @@
 package Zergling_VS_Marine;
 
+// 객체지향 까지 배우고 적용해본 스타크래프트... 지금은 1대1만 가능한코드..
+// 나중에 프로토스 까지 적용해서 
+
 import java.util.Scanner;
 
 public class Starcraft_Main {
 
 	public static void main(String[] args) {
 
+		// 마린 정보
 		Unit marine = new Marine();
 		marine.country();
 		marine.type();
@@ -14,6 +18,8 @@ public class Starcraft_Main {
 		marine.damage();
 		marine.hp();
 		System.out.println("---------------------------");
+		
+		// 저글링 정보
 		Unit zergling = new Zergling();
 		zergling.country();
 		zergling.type();
@@ -22,13 +28,15 @@ public class Starcraft_Main {
 		zergling.damage();
 		zergling.hp();
 		System.out.println("---------------------------");
-
+		
+		// 어택 인스턴스 선언 및 hp 저장 변수 선언
 		Marine matt = new Marine();
 		Zergling zatt = new Zergling();
 		Scanner sc = new Scanner(System.in);
 		int mhp = matt.hp;
 		int zhp = zatt.hp;
 
+		
 		System.out.println("유닛을 고르세요. 마린 : 1번, 저글링 : 2번");
 		int input1 = sc.nextInt();
 		if(input1 == 1) {
