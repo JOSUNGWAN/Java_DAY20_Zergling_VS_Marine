@@ -1,5 +1,6 @@
 package Zergling_VS_Marine;
 
+//-------------------------------------2022/9/2---------------------------------------------
 public class Unit implements All_Kind {
 
 	@Override
@@ -15,6 +16,8 @@ public class Unit implements All_Kind {
 	@Override 
 	public void hp() {}
 }
+
+
 
 // 마린
 class Marine extends Unit {
@@ -63,6 +66,9 @@ class Zergling  extends Unit {
 		if(hp <= 0) System.out.println("Zergling Die");
 		else System.out.println("Zergling Hp : " + hp);
 		return hp;
+//-------------------------------------2022/9/2---------------------------------------------
+		
+		
 	}
 }
 
